@@ -1,6 +1,6 @@
 # (©)Codexbotz
-# Recode by @mrismanaziz
-# t.me/SharingUserbot & t.me/Lunatic0de
+# Recode by @cieemarah
+# t.me/ohbabysini & t.me/familynvn
 
 import logging
 import os
@@ -25,14 +25,14 @@ CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
 OWNER_ID = int(os.environ.get("OWNER_ID", ""))
 
 # NAMA OWNER
-OWNER = os.environ.get("OWNER", "mrismanaziz")
+OWNER = os.environ.get("OWNER", "bukankeplakbotak")
 
 # Database
 DB_URI = os.environ.get("DATABASE_URL", "")
 
 # Username CH & Group
-CHANNEL = os.environ.get("CHANNEL", "Lunatic0de")
-GROUP = os.environ.get("GROUP", "SharingUserbot")
+CHANNEL = os.environ.get("CHANNEL", "@asupanbuas")
+GROUP = os.environ.get("GROUP", "ohbabysini")
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
@@ -53,7 +53,7 @@ except ValueError:
 # Pesan Saat Memaksa Subscribe
 FORCE_MSG = os.environ.get(
     "FORCE_SUB_MESSAGE",
-    "<b>Hello {first}\n\nAnda harus bergabung di Channel/Grup saya Terlebih dahulu untuk Melihat File yang saya Bagikan\n\nSilakan Join Ke Channel & Group Terlebih Dahulu</b>",
+    "<b>Hello {first}\n\nAnda harus bergabung di Channel 1 dan 2 saya Terlebih dahulu untuk Melihat File yang saya Bagikan\n\nSilakan Join Ke Channel 1 dan 2 Terlebih Dahulu</b>",
 )
 
 # Atur Teks Kustom Anda di sini, Simpan (None) untuk Menonaktifkan Teks Kustom
@@ -63,10 +63,10 @@ CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == "True"
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(844432220)
-ADMINS.append(1250450587)
-ADMINS.append(1750080384)
-ADMINS.append(2102118281)
+ADMINS.append(5039309534)
+ADMINS.append(1808136434)
+ADMINS.append(1808136434)
+ADMINS.append(5039309534)
 
 
 LOG_FILE_NAME = "logs.txt"
