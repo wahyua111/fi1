@@ -1,5 +1,5 @@
 # (©)Codexbotz
-# Recode by @cieemsrah
+# Recode by @cieemarah
 # t.me/ohbabysini & t.me/familynvn
 
 import asyncio
